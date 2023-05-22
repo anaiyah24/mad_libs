@@ -23,80 +23,143 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="30dp" />
+        app:layout_constraintGuide_percent="0.11" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.9270073" />
+        app:layout_constraintGuide_begin="370dp" />
 
     <EditText
         android:id="@+id/editTextText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="4dp"
         android:ems="10"
         android:inputType="text"
         android:text="name:"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="61dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        tools:layout_editor_absoluteX="46dp" />
 
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="136dp"
         android:ems="10"
         android:inputType="number"
         android:text="age:"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editTextText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
         android:layout_marginEnd="136dp"
         android:ems="10"
         android:inputType="text"
         android:text="favorite color:"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="220dp" />
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
 
     <EditText
         android:id="@+id/editTextText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
         android:layout_marginEnd="136dp"
         android:ems="10"
         android:inputType="text"
         android:text="favorite food:"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="277dp" />
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        tools:layout_editor_absoluteY="250dp" />
 
     <EditText
         android:id="@+id/editTextDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="136dp"
+        android:layout_marginEnd="112dp"
         android:ems="10"
         android:inputType="date"
         android:text="birthday:"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="167dp" />
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editTextText6"
+        android:id="@+id/editTextText8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="142dp"
+        android:layout_marginEnd="132dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="favorite animal:"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="331dp" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="116dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="157dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="205dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="9dp"
+        android:text="Go!"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="514dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="586dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
