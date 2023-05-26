@@ -37,6 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Create Your Own Mad Lib"
+            android:textColor="@color/title"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textSize="20sp" />
@@ -45,6 +46,7 @@
             android:id="@+id/tv_info"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/text"
             android:text="Enter information below to create your own story." />
 
         <TextView
@@ -57,12 +59,13 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/et_noun"
+            android:id="@+id/et_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:hint="noun:" />
+            android:textColorHint="@color/text"
+            android:hint="time:" />
 
         <EditText
             android:id="@+id/et_verb"
@@ -70,7 +73,16 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
+            android:textColorHint="@color/text"
             android:hint="verb:" />
+
+        <EditText
+            android:id="@+id/et_verb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="another verb" />
 
         <EditText
             android:id="@+id/et_adj"
@@ -79,6 +91,14 @@
             android:ems="10"
             android:inputType="text"
             android:hint="adjective:" />
+
+        <EditText
+            android:id="@+id/et_adj2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="another adjective:" />
 
         <EditText
             android:id="@+id/et_color"
@@ -97,12 +117,12 @@
             android:hint="shape:" />
 
         <EditText
-            android:id="@+id/et_location"
+            android:id="@+id/et_city"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:hint="location" />
+            android:hint="city" />
 
         <EditText
             android:id="@+id/et_money"
@@ -113,20 +133,28 @@
             android:hint="amount of money" />
 
         <EditText
-            android:id="@+id/et_password"
+            android:id="@+id/et_artist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:hint="bad password:" />
+            android:hint="music artist:"
+            android:inputType="text" />
 
         <EditText
-            android:id="@+id/et_business"
+            android:id="@+id/et_animal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:hint="business" />
+            android:hint="animal:" />
+
+        <EditText
+            android:id="@+id/et_drink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="drink" />
 
         <EditText
             android:id="@+id/et_food"
