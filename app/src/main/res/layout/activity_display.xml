@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#d9f1ff"
     tools:context=".DisplayActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -34,9 +35,9 @@
         <ImageView
             android:id="@+id/iv_picture"
             android:layout_width="match_parent"
-            android:layout_height="260dp"
+            android:layout_height="200dp"
             android:scaleType="centerCrop"
-            tools:srcCompat="@drawable/im_car" />
+            tools:srcCompat="@drawable/im_zesty" />
 
         <TextView
             android:id="@+id/tv_title"

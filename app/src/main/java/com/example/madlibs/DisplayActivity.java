@@ -24,7 +24,7 @@ public class DisplayActivity extends AppCompatActivity {
 
         String story = intent.getStringExtra("story");
 
-        ivPicture.setImageResource(R.drawable.im_car);
+        ivPicture.setImageResource(R.drawable.im_zesty);
         tvStory.setText(story);
     }
 }

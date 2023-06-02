@@ -51,19 +51,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String story = "";
-                story += "\nAt about " + etTime.getText() + ", on a " + etAdj.getText() + " day, you decide to go on a road trip by yourself.";
-                story += "\nHaving packed $" + etMoney.getText() + " and some " + etFood.getText() + ", you set on for your trip.";
-                story += "\nYou didn't have an actual plan on where to go, so on a whim decide to go to " + etCity.getText() + ".";
-                story += "\nYou feel the " + etAdj2.getText() + " breeze pass you by through the windows. The scenery isn't that bad and in the distance you spot a pretty " + etShape.getText() + " shaped building. You continue going down your journey towards " + etCity.getText() + " and put on your favorite music artist, " + etArtist.getText() + ".";
-                story += "\nJust as you begin to let yourself feel the music, a " + etAnimal.getText() + " abruptly jumps into the middle of the road causing you to slam on your brakes.";
+                story += "\nAt about " + etTime.getText() + ", on a " + etAdj.getText() + " day, you decide to go on a road trip by yourself. Having packed $" + etMoney.getText() + " and some " + etFood.getText() + ", you set on for your trip.";
+                story += "\nYou didn't have an actual plan on where to go, so on a whim decide to go to " + etCity.getText() + ". Then you set forth for your trip";
+                story += "\nYou feel the " + etAdj2.getText() + " breeze through the windows. The scenery isn't that bad and in the distance you spot a pretty " + etShape.getText() + " shaped building. You put on your favorite music artist, " + etArtist.getText() + ". Just as you begin to let yourself feel the music, a " + etAnimal.getText() + " abruptly jumps into the middle of the road causing you to slam on your brakes.";
                 story += "\nYou try your best to stay on the road, but your car begins to swerve out of control and then flips over. You try calling for help but fail and soon your vision goes dark.";
-                story += "\nA few moments later..";
-                story += "\nYou wake up with a " + etAdj.getText() + " headache. You don't recognize your surroundings and begin to " + etVerb.getText() + " in panic. Desperately trying to figure out where you've ended up, you come to the conclusion that it must be some sort of backroom. Looking around, you notice a faint " + etColor.getText() + " light in the distance. You begin to " + etVerb2.getText() + " towards it but can never seem to make it there.";
-                story += "\nStopping to catch your breath, you check your pockets and realize your $" + etMoney.getText() + "is still on you.. So at least you haven't been robbed.";
-                story += "\nYour stomach begins to grumble and you wish you had your " + etFood.getText() + " on you. You decide to just continue trying to find a way out.";
-                story += "\nThe ground begins to rumble and you start to " + etVerb.getText() + " once again out of panic. Above you starts to rain what seems like " + etDrink.getText() + " and while you try to seek cover, there is nothing to protect you. In the distance you see a figure and try to make out what it is, and come to realize it is the " + etAnimal.getText() + " that was in the road where you were before you ended up where you were.";
-                story += "\nYour vision starts to get dark once again and you try to " + etVerb.getText() + " one again, but then you fall to the ground, right before your vision is out completely, you see a hoard of " + etAnimal.getText() + "towards you. Then everything goes out once again.";
-                story += "\nYour eyes open and you seem to find yourself back in your car. You frantically look around you and see that you are back at the odd " + etShape.getText() + " building, that was in the distance before. You double check if you still have $" + etMoney.getText() + " and your " + etFood.getText() + " and are relieved when everything is still where it was. You don't understand how you arrived where you were, but assume it must've only been a dream..";
+                story += "\nA bit later..";
+                story += "\nYou wake up with a " + etAdj.getText() + " headache. Not recognizing your surroundings, you begin to " + etVerb.getText() + ". Trying to figure out where you've ended up, you think that it must be some sort of backroom. Looking around, you notice a faint " + etColor.getText() + " light in the distance. You begin to " + etVerb2.getText() + " towards it but can never seem to make it there.";
+                story += "\nDeciding to stop, you check your pockets and realize you still have your $" + etMoney.getText() + ".";
+                story += "\nYour stomach begins to grumble and you think about your yummy " + etFood.getText() + ". You decide to just continue trying to find a way out.";
+                story += "\nThe ground begins to rumble and you start to " + etVerb.getText() + " once again. Above you starts to rain what seems like " + etDrink.getText() + " and while you try to seek cover, there is nothing to protect you. In the distance you see a figure and try to make out what it is, and come to realize it is the " + etAnimal.getText() + " that was in the road before.";
+                story += "\nYour vision starts to get dark once again and you try to " + etVerb.getText() + " once again, but then you fall to the ground, you see a hoard of " + etAnimal.getText() + "running at you. Then everything goes out once again.";
+                story += "\nYour eyes open and you're all sweaty and dazed. You're pulled over on the side of the road, the " + etShape.getText() + " shaped building . You double check if you still have $" + etMoney.getText() + " and your " + etFood.getText() + " and everything is still where it was. Confused, you hear beeping and then your car explodes";
+                story += "\nYou died. RIP bozo";
+
 
                 intentDisplay.putExtra("story", story);
                 startActivity(intentDisplay);
